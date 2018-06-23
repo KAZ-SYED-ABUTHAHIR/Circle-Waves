@@ -44,4 +44,8 @@ class WaveCircle {
     ellipse(this.center.x, this.center.y, this.diameter, this.diameter);
     popStyle();
   }
+  
+  void setColored(boolean _colored) {
+  this.colorred = _colored;
+  }
 }
